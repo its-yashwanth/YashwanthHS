@@ -20,10 +20,10 @@ function Projects() {
             demo: null,
         },
         {
-            title: "Rent cars",
-            description: "A car booking website",
-            image: "/src/assets/projectphotos/currency.jpg",
-            github: "https://github.com/its-yashwanth/Currency-converter",
+            title: "Portfolio website",
+            description: "Personal portfolio website to display my work and projects.",
+            image: "/src/assets/projectphotos/myfolio.jpg",
+            github: "https://github.com/its-yashwanth/YashwanthHS",
             demo: null,
         },
     ];
