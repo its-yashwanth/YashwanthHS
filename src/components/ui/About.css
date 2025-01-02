@@ -1,0 +1,413 @@
+/* .pht{
+    width:320px;
+    height:390px;
+    object-fit:cover;
+
+}
+
+.myphotos{
+    width:40vw;
+    display: flex;
+    justify-content:end;
+   
+}
+.information{
+    width:50vw;
+    display: flex;
+    justify-content: start;
+   
+} 
+
+.one{
+    height:100vh;
+}
+.mains{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    height: 80%;
+   
+}
+
+.some{
+    width:70%;
+    padding:30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.about-light{
+    width:100%;
+}
+
+.abt{
+    display: flex;
+    justify-content: center;
+    font-size:35px;
+    font-weight:400;
+    padding-top:60px ;
+    padding-bottom: 30px;
+    color: #a855f7;
+    padding-right: 50px;
+}
+
+.about-dark{
+    width:100%;
+    color:white;
+    background-color: black;
+}
+
+.about-dark .one{
+    background-color: black;
+    width: auto;
+}
+.fa-computer{
+    font-size:16px ;
+}
+
+.clg
+{
+    color:#a855f7;
+}
+
+.clg:hover{
+    text-decoration: underline;
+} */
+
+
+
+
+
+.containers{
+    display:grid;
+    /* grid-template-columns:1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:25px;
+    padding:10px;
+    margin-left:160px;
+    margin-right:160px;
+    margin-top: 30px;
+}
+
+.boxes{
+    border-radius: 10px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    grid-column: 2/4;
+}
+
+.abt{
+    font-size: 35px;
+    font-weight: 500;
+    padding:10px;
+    padding-bottom:1px;
+    text-align: center;
+    color: #a855f7;
+}
+
+
+.information{
+    font-size: 18px;
+    padding:5px;
+}
+
+
+.about-light{
+min-height: 100vh;
+  background-color: white;
+  color:black;
+}
+
+.about-dark{
+    min-height: 100vh;
+    background-color: black;
+    color:white;
+  }
+
+  .clg
+{
+    color:#a855f7;
+}
+
+.clg:hover{
+    text-decoration: underline;
+} 
+
+
+
+.domains{
+    text-align: center;
+    margin:20px;
+}
+
+.about-dark .domains{
+    text-align: center;
+    padding-bottom:25px;
+    margin-bottom:1px;
+}
+
+.tags-container{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+
+.tag{
+    position: relative;
+    /* padding:10px 20px; */
+    padding:5px;
+    border: 1px solid #a855f7;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+}
+.tag:hover{
+    background-color: #f0f8ff;
+}
+
+.about-dark .tag:hover{
+    background-color: black;
+}
+
+
+
+.hover-icons {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+  }
+.about-dark .hover-icons {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px whitesmoke;
+  }
+
+  .tag:hover .hover-icons {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+ .about-dark .fa-github,.express
+ {
+    background-color: white;
+ }
+
+
+.view{
+    font-size: 12px;
+}  
+
+
+
+
+
+
+
+
+
+
+  @media (max-width:1200px)
+  {
+.box2{
+    grid-column:1/2;
+}
+
+.containers{
+    gap:15px;
+    padding:10px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top: 30px;
+}
+  }
+
+@media (max-width:650px)
+{
+    .containers{
+        gap:15px;
+        padding:10px;
+        margin-left:70px;
+        margin-right:70px;
+        margin-top: 10px;
+    } 
+
+    .information{
+        font-size: 16px;
+        padding:4px;
+    }
+}
+
+@media (max-width:450px)
+{
+    .containers{
+        gap:15px;
+        padding:10px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top: 10px;
+    } 
+
+    .information{
+        font-size: 14px;
+        padding:3px;
+    }
+
+    .abt{
+        font-size: 30px;
+        font-weight: 400;
+        padding:7px;
+        padding-bottom:1px;
+    }
+    
+}
+
+.pht{
+    transform: scaleX(-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* App.css */
+
+  
+.timeline {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .timeline h2 {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .edu{
+    font-size:20px;
+  }
+  .timeline-container {
+    display: flex;
+    width: 600px;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #a855f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1; /* Ensure the circle is above the line */
+  }
+  
+  .icon-computer::before {
+    content: "\1F4BB"; /* Unicode for computer icon */
+    font-size: 20px;
+  }
+  
+  .icon-pencil::before {
+    content: "\270F"; /* Unicode for pencil icon */
+    font-size: 20px;
+  }
+  
+  .content h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .date {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .content p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  
+  .timeline-line {
+    width: 88%;
+    height: 2px;
+    background-color: gray;
+    position: absolute;
+    top: 17%;
+    margin-left: 30px;
+    left: 0;
+    z-index: 0; /* Ensure the line is behind the icons */
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .timeline-container {
+      flex-direction: column; /* Stack the timeline items vertically */
+      width: 100%;
+    }
+  
+    .timeline-line {
+        display: none;
+      width: 2px; /* Change line to vertical for stacked layout */
+      height: 100%; /* Extend line height */
+      top: 0; /* Align line to the top */
+      left: 10%; /* Center the line */
+      transform: translateX(-50%);
+      margin-left: 0; /* Reset margin for vertical alignment */
+    }
+  
+    .timeline-item {
+      flex-direction: row; /* Align icon and content horizontally */
+      text-align: left;
+      margin-bottom: 20px;
+    }
+  
+    .circle {
+      margin-bottom: 0; /* Remove bottom margin for stacked layout */
+      margin-right: 10px; /* Add right margin to space the circle */
+    }
+  }
+  

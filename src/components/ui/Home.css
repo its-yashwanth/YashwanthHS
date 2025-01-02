@@ -1,0 +1,208 @@
+.hii{
+   height:60px;
+   width:60px;
+   display:inline;
+  }
+ 
+.myphoto {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block; /* To prevent any spacing issues */
+    margin: 0; /* Ensure there's no margin affecting the roundness */
+    padding: 0; /* Ensure no padding is affecting the layout */
+    /* border:5px solid purple */
+    /* background-image: linear-gradient(to right, #a855f7, #8b5cf6, #ec4899); */
+    border: 4px solid #a855f7; 
+}
+
+.myphoto:hover {
+    border: 6px solid #a855f7;
+}
+
+.main{
+    display:flex;
+    height:auto;
+    width: 90vw;
+    padding:50px;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box; 
+    padding-bottom: 28vh;
+}
+
+.hello{
+    font-size:50px;
+    font-weight:600;
+    /* display: flex;
+    align-items: center; */
+
+}
+
+
+.yash{
+    font-size: 90px;
+    font-weight: 700;
+}
+.desc
+{
+    font-size:25px;
+    font-weight: 300;
+}
+
+.software
+{
+    font-size:20px;
+}
+
+
+.intro{
+    min-width: 50%;
+    position:relative;
+    padding-left:50px;
+}
+
+
+.fa-brands{
+    font-size: 45px;
+    padding:20px;
+}
+
+.linkedin{
+    color:rgb(33, 118, 246)
+}
+
+.fa-solid{
+    font-size: 35px;
+    padding-left:20px;
+    padding-right:3px;
+    padding-top:2px;
+    color:grey;
+}
+
+.resume{
+    font-size:30px;
+    font-weight:300;
+    border: 0.5px solid black;
+   border-radius:20px;
+   padding-right: 5px;
+   margin-left: 10px;
+}
+
+.home-dark{
+    transition:0.4s ease;
+    background-color:black;
+    color:white;
+}
+
+.home-dark .resume{
+    border: 0.5px solid white; 
+    transition: border-color 0.4s ease;
+}
+
+@media (max-width:960px){
+  .main{
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .myphoto{
+    height: 200px;
+    width: 200px;
+}
+.hello{
+    font-size:50px;
+    font-weight:500;
+}
+
+.yash{
+font-size: 80px;
+font-weight: 500;
+}
+
+
+
+}
+
+@media (max-width:600px){
+    .main{
+      display: flex;
+      flex-direction: column-reverse;
+      height: auto;
+      width: auto;
+    }
+    .myphoto{
+        height: 180px;
+        width: 180px;
+    }
+    .hello{
+        font-size:40px;
+        font-weight:500;
+  }
+
+  .yash{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.fa-brands{
+  font-size:33px;
+}
+
+.fa-solid{
+    font-size: 24px;
+}
+
+.resume{
+    font-size:25px;
+    font-weight:290;
+    border: 0.5px solid black;
+   border-radius:20px;
+}
+
+.home-dark{
+    background-color: black;
+    width:auto;
+}
+}
+
+@media (max-width:343px)
+{
+    .main{
+      margin-left:50px;
+      }
+    .hello{
+        font-size:30px;
+        font-weight:400;
+}
+
+.yash{
+    font-size: 50px;
+    font-weight: 500;
+}
+}
+
+@media (max-width:341px)
+{
+    .intro{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .main{
+        padding:0px;
+        padding-bottom: 28vh;
+    }
+}
+
+@media (max-width:360px)
+{
+   .desc{
+    font-size: 20px;
+   }
+   .software{
+    font-size: 15px;
+   }
+}

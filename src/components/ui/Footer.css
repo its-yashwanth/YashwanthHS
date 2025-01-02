@@ -1,0 +1,125 @@
+footer{
+   height: auto;
+   width:100%;
+   /* margin-top:10px; */
+}
+.names{
+ display:flex;
+ font-size:25px;
+ font-weight:300;
+ justify-content: center;
+ padding:10px;
+}
+.linkss ul{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+ul li{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer-light .line{
+ background-color: black;
+ width:100%;
+ display: flex;
+ justify-content: center;
+ height:1px;   
+}
+
+.footer-dark .line{
+    background-color:white;
+    width:100%;
+    display: flex;
+    justify-content: center;  
+    height: 1px;
+}
+
+.footer-dark{
+    background-color:black;
+    color:white;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-light .mail{
+    font-size: 23px;
+    margin-right:6px;
+    color:black
+   }
+
+   .footer-light .linkin,.git,.inst{
+    font-size: 23px;
+    color:black
+   }
+
+   .footer-light .git,.inst{
+    font-size: 23px;
+    color:black
+   }
+   .footer-light .inst{
+    font-size: 23px;
+    color:black
+   }
+.footer-dark .mail,.linkin,.git,.inst{
+    font-size: 23px;
+    color:white;
+}
+
+
+@media (max-width:350px)
+{
+    .footer-light .mail{
+        font-size: 20px;
+        margin-right:6px;
+        color:black
+       }
+    
+       .footer-light .linkin,.git,.inst{
+        font-size: 20px;
+        color:black
+       }
+    
+       .footer-light .git,.inst{
+        font-size: 20px;
+        color:black
+       }
+       .footer-light .inst{
+        font-size: 20px;
+        color:black
+       }
+    .footer-dark .mail,.linkin,.git,.inst{
+        font-size: 20px;
+        color:white;
+    }
+
+    .names{
+        font-size:18px;
+        font-weight:300;
+        padding:8px;
+       }
+
+       .copy{
+        font-weight: 200;
+        font-size: 13px;
+    }
+
+    ul li{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .line{
+        width:100%;
+    }
+}
