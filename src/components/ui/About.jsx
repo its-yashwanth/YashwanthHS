@@ -154,7 +154,7 @@ function About() {
       <div className="abt">About Me</div>
       <div className="containers">
         <div className="boxes box1">
-          <img className="pht" src="./src/assets/aboutphoto.png"></img>
+          <img className="pht" src="./assets/aboutphoto.png"></img>
         </div>
         <div className="boxes box2">  <div className="information"><span className="some">I am a second-year undergraduate student in the Department of Computer Science and Engineering💻 at <span className="clg"><a href="https://pes.edu/">PES University</a></span>, Bangalore, India. I was born in Bangalore, Karnataka.<br></br>
           Driven by a natural knack for problem-solving and a desire to create impactful solutions, I found my path in technology. I’m passionate about applying my skills to various projects and entrepreneurial ventures while forging connections 🤝 across platforms. Constantly evolving my technical expertise to stay ahead of the curve in this fast-paced industry, I focus on both building solutions from the ground up and optimizing systems for efficiency. I thrive on collaboration and am always eager to embrace new opportunities for growth 🚀 and innovation.</span>

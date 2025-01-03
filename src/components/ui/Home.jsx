@@ -66,7 +66,7 @@ return(
     <button className="github" onClick={openGithub}><i class="fa-brands fa-github"></i></button>
     {/* <button  className="resume" onClick={openResume}><i class="fa-solid fa-file"></i> Resume</button> */}
 </div>
-     <div className="photo"><img className="myphoto" src="./src/assets/myphoto.png"></img></div>
+     <div className="photo"><img className="myphoto" src="/assets/myphoto.png"></img></div>
     </div>
 
     </div>
