@@ -7,15 +7,15 @@ function Projects() {
     const projects = [
         {
             title: "Currency converter",
-            description: "A simple currency converter built using the currency API",
+            description: "A simple currency converter for different countries that enables users to perform currency conversions effortlessly.",
             image: "/src/assets/projectphotos/currency.jpg",
             github: "https://github.com/its-yashwanth/Currency-converter",
             demo: null,
         },
         {
             title: "Rent cars",
-            description: "A car booking website",
-            image: "/src/assets/projectphotos/currency.jpg",
+            description: "A user-friendly car booking website that allows users to search and book cars for rent effortlessly.",
+            image: "/src/assets/projectphotos/carrent.jpg",
             github: "https://github.com/its-yashwanth/Currency-converter",
             demo: null,
         },

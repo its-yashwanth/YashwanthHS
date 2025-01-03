@@ -50,7 +50,7 @@ const openGithub= () => {
         window.open("https://github.com/its-yashwanth", "_blank");
       };
       const openResume = () => {
-        window.open("./src/assets/Resume-Sarthak_S_Kumars.pdf", "_blank"); 
+        window.open("./src/assets/Resume-YashwanthHS.pdf", "_blank"); 
       };
 
 
@@ -64,7 +64,7 @@ return(
 <br></br>
 <button className="linkedin" onClick={openLinkedIn}><i class="fa-brands fa-linkedin linkedin"></i></button>
     <button className="github" onClick={openGithub}><i class="fa-brands fa-github"></i></button>
-    <button  className="resume" onClick={openResume}><i class="fa-solid fa-file"></i> Resume</button>
+    {/* <button  className="resume" onClick={openResume}><i class="fa-solid fa-file"></i> Resume</button> */}
 </div>
      <div className="photo"><img className="myphoto" src="./src/assets/myphoto.png"></img></div>
     </div>

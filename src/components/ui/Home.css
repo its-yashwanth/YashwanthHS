@@ -82,10 +82,10 @@
 }
 
 .resume{
-    font-size:28px;
+    font-size:27px;
     font-weight:300;
     border: 0.5px solid black;
-   border-radius:0px;
+   border-radius:10px;
    padding-right: 5px;
    margin-left: 10px;
    padding:5px;
@@ -209,3 +209,4 @@ font-weight: 500;
     font-size: 15px;
    }
 }
+

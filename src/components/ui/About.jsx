@@ -140,7 +140,11 @@ function About() {
     {
       name: "Version Control",
       icons: [
-        <i className="fab fa-git" style={{ color: "#F05032", fontSize: "24px" }}></i>,
+        <img
+        src="https://www.svgrepo.com/show/353782/git-icon.svg"
+        alt="Git"
+        style={{ width: "24px", height: "24px" }}
+      />,
         <i className="fab fa-github" style={{ color: "#181717", fontSize: "24px" }}></i>,
       ],
     },
@@ -166,7 +170,7 @@ function About() {
       </div>
       <div className="content">
         <h3>B.Tech-CSE</h3>
-        <span className="date">2021 - 2025</span>
+        <span className="date">2023 - 2027</span>
         <p>PES University</p>
       </div>
     </div>
